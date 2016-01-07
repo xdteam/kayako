@@ -1,16 +1,25 @@
 {
     "name": "xdteam/kayako",
-    "description": "A Laravel log reader",
+    "description": "PHP API library for Kayako",
     "license": "MIT",
-    "keywords": ["log", "log-reader", "log-viewer", "logging"],
-    "authors": [
-        {
-            "name": "rap2hpoutre",
-            "email": "raphael@ornikar.com"
-        }
-    ],
+    "type": "project",
+	"minimum-stability": "dev",
     "require": {
-        "php": ">=5.4.0"
+        "php": ">=5.3.0",
+		"ext-curl": "*",
+		"composer/installers": "1.*",
+        "xdteam/kayako": "dev-master"
     },
-    "minimum-stability": "dev"
+    "extra": {
+        "installer-paths": {
+            "vendor/kayako/": ["xdteam/kayako"]
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "autoload": {
+        "classmap": [""],
+        "files": ["kyHelpers.php"]
+    }
 }
