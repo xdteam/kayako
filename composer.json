@@ -1,6 +1,7 @@
 {
     "name": "xdteam/kayako",
     "description": "PHP API library for Kayako",
+    "minimum-stability": "dev",
 	"license": "MIT",
 	"extra": {
 		"branch-alias": {
