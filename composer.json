@@ -6,11 +6,6 @@
         "php": ">=5.3.0",
         "ext-curl": "*"
     },
-	"extra": {
-        "installer-paths": {
-            "vendor/kayako/php-api-library/": ["xdteam/kayako"]
-        }
-    },
     "autoload": {
         "classmap": [""],
         "files": ["kyHelpers.php"]
