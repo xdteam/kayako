@@ -2,7 +2,6 @@
     "name": "xdteam/kayako",
     "description": "PHP API library for Kayako",
     "require": {
-		"composer/installers": "~1.0",
         "php": ">=5.3.0",
         "ext-curl": "*"
     },
